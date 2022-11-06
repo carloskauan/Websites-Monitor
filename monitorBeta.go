@@ -17,7 +17,7 @@ func main(){
   var choice int
   for{
     var count int
-    fmt.Println("Monitorador de sites\n\n1-\tMonitorar\n2-\tRegistrar sites\n3-\tExcluir sites\n4-\tExibir logs\n\n0-\tSair")
+    fmt.Println("Monitorador de sites\n\n1-\tMonitorar\n2-\tRegistrar sites\n3-\tExibir logs\n\n0-\tSair")
     fmt.Scan(&choice)
     switch choice{
     case 1:
